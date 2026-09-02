@@ -1,0 +1,37 @@
+{
+  "name": "weekly-sale-flyer",
+  "width": 1080, "height": 1350,
+  "background": { "type": "gradient", "from": "#0B6B2E", "to": "#063D1A", "angle": 90 },
+  "layers": [
+    { "type": "ellipse", "name": "Logo circle", "x": 40, "y": 30, "width": 200, "height": 200, "color": "#FFFFFF", "stroke": {"color": "#D62828", "width": 8}, "group": "Header" },
+    { "type": "text", "name": "Logo text", "text": "Kacha\nBazar", "x": 40, "y": 78, "width": 200, "font": "Poppins-Bold", "size": 40, "color": "#0B6B2E", "align": "center", "lineHeight": 1.0, "group": "Header" },
+    { "type": "text", "name": "Headline top", "text": "WEEKLY", "x": 280, "y": 40, "width": 520, "font": "Poppins-Bold", "size": 52, "color": "#FFFFFF", "align": "center", "group": "Header" },
+    { "type": "text", "name": "Headline", "text": "SUPER\nHERO", "x": 280, "y": 96, "width": 520, "font": "Poppins-Bold", "size": 120, "color": "#F9D23C", "align": "center", "lineHeight": 0.9, "group": "Header",
+      "shadow": { "color": "#000000", "opacity": 0.5, "distance": 8, "angle": 120, "blur": 10 } },
+    { "type": "rect", "name": "Sale tag", "x": 400, "y": 322, "width": 280, "height": 64, "color": "#D62828", "radius": 32, "group": "Header" },
+    { "type": "text", "name": "Sale text", "text": "SALE!", "x": 400, "y": 332, "width": 280, "font": "Poppins-Bold", "size": 40, "color": "#FFFFFF", "align": "center", "group": "Header" },
+    { "type": "rect", "name": "Validity bar", "x": 40, "y": 400, "width": 1000, "height": 54, "color": "#F9D23C", "radius": 27, "group": "Strips" },
+    { "type": "text", "name": "Validity", "text": "VALIDITY: 14 AUGUST TO 17 AUGUST", "x": 40, "y": 412, "width": 1000, "font": "Poppins-Bold", "size": 26, "color": "#063D1A", "align": "center", "tracking": 40, "group": "Strips" },
+    { "type": "grid", "name": "Deals", "x": 40, "y": 480, "width": 1000, "height": 700, "cols": 5, "rows": 2, "gap": 14,
+      "card": { "color": "#FFFFFF", "radius": 16 },
+      "title": { "size": 17, "color": "#111111" },
+      "price": { "size": 34, "color": "#FFFFFF", "bg": "#D62828" },
+      "note": { "size": 14, "color": "#333333" },
+      "items": [
+        { "image": "product.png", "title": "BROWN ONION\n5KG", "price": "$6.99" },
+        { "image": "product.png", "title": "RUCHI SONA MASURI\nRICE 5KG", "price": "$8.50", "note": "ONLY" },
+        { "image": "product.png", "title": "CHEF'S TASTY CHOICE\nCLASSIC RICE 5KG", "price": "$14.50", "note": "ONLY" },
+        { "image": "product.png", "title": "RED KIDNEY BEANS\nDARK / LIGHT 1KG", "price": "$3.99", "note": "SAVE $2.00" },
+        { "image": "product.png", "title": "SAURBHI MIXED\nBEANS 1KG", "price": "$3.99", "badge": "SAVE\n$1" },
+        { "image": "product.png", "title": "PRAN CHANACHUR\nANY 2", "price": "2 FOR $5" },
+        { "image": "product.png", "title": "MAXIM PARATHA\n30PCS", "price": "2 FOR $15" },
+        { "image": "product.png", "title": "OLYMPIC ASSORTED\nFROZEN SNACKS", "price": "2 FOR $6", "note": "SAVE $2.00" },
+        { "image": "product.png", "title": "BIKAJI BHUJIA\n1KG", "price": "$6.50", "badge": "1/2\nPRICE" },
+        { "image": "product.png", "title": "HILSHA SIZE 10/12\n(UNCUT)", "price": "$23/KG", "note": "SAVE $17/KG" }
+      ] },
+    { "type": "rect", "name": "Footer bar", "x": 0, "y": 1210, "width": 1080, "height": 140, "color": "#063D1A", "group": "Footer" },
+    { "type": "text", "name": "Contact", "text": "CONTACT US\n+61 430 088 831", "x": 40, "y": 1232, "width": 320, "font": "Poppins-Bold", "size": 24, "color": "#FFFFFF", "group": "Footer" },
+    { "type": "text", "name": "Hours", "text": "OPEN EVERYDAY\n10AM – MIDNIGHT", "x": 380, "y": 1232, "width": 320, "font": "Poppins-Bold", "size": 24, "color": "#F9D23C", "align": "center", "group": "Footer" },
+    { "type": "text", "name": "Address", "text": "SHOP 1, 23 STATION ST\nKOGARAH, NSW", "x": 720, "y": 1232, "width": 320, "font": "Poppins-Bold", "size": 24, "color": "#FFFFFF", "align": "right", "group": "Footer" }
+  ]
+}

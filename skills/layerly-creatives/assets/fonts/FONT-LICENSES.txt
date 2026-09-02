@@ -1,0 +1,4 @@
+Poppins (Bold, Medium, Regular) - Indian Type Foundry, SIL Open Font License 1.1
+Noto Sans Bengali (Bold, Regular) - The Noto Project Authors, SIL Open Font License 1.1
+Fonts are subsetted (Latin / Bengali ranges) to keep the skill small; licenses permit this.
+Full fonts: fonts.google.com
