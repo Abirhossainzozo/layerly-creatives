@@ -1,0 +1,9 @@
+{
+  "name": "psd-builder-scripts",
+  "private": true,
+  "description": "Dependencies for build_psd.js (already vendored in ./vendor; run `npm install` only if that folder is missing)",
+  "dependencies": {
+    "ag-psd": "^31.0.2",
+    "pngjs": "^7.0.0"
+  }
+}
