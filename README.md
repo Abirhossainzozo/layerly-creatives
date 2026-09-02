@@ -129,6 +129,8 @@ cp -r layerly-creatives/skills/layerly-creatives ~/.agents/skills/     # Codex /
 Download `dist/layerly-creatives.zip` and upload it under Skills. Claude: Customize, Skills,
 upload. ChatGPT: Skills, upload. Gemini: use `dist/layerly-creatives-gemini.zip` (Python-only build).
 
+Careful: do NOT use the green Code, Download ZIP button; that downloads the whole repository, which Skills upload rejects. Open the `dist` folder and download `layerly-creatives.zip` itself (or find it inside the repo zip at `layerly-creatives-main/dist/`).
+
 **Option 5: Fork and customise**
 Fork the repo, swap the bundled fonts and design rules for your brand's, and install your fork.
 
