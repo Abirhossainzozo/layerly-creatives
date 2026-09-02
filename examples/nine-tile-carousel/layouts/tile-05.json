@@ -1,0 +1,143 @@
+{
+  "name": "05-growth-partner",
+  "preset": "ig-post",
+  "background": {
+    "type": "gradient",
+    "from": "#1F5EFF",
+    "to": "#0B1B3A",
+    "angle": 90
+  },
+  "layers": [
+    {
+      "type": "text",
+      "name": "Arrow Icon",
+      "text": ">",
+      "x": 70,
+      "y": 42,
+      "width": 70,
+      "font": "Poppins-Bold",
+      "size": 56,
+      "color": "#FFFFFF",
+      "group": "Brand"
+    },
+    {
+      "type": "text",
+      "name": "Brand Name",
+      "text": "NORTHLINE CAPITAL",
+      "x": 135,
+      "y": 56,
+      "width": 650,
+      "font": "Poppins-Bold",
+      "size": 31,
+      "color": "#FFFFFF",
+      "tracking": 45,
+      "group": "Brand"
+    },
+    {
+      "type": "text",
+      "name": "Brand Tagline",
+      "text": "Clarity. Direction. Growth.",
+      "x": 137,
+      "y": 93,
+      "width": 620,
+      "font": "Poppins-Regular",
+      "size": 18,
+      "color": "#D7E1FF",
+      "tracking": 30,
+      "group": "Brand"
+    },
+    {
+      "type": "image",
+      "name": "Two Colleagues with Tablet",
+      "src": "../assets/two-colleagues.png",
+      "x": 240,
+      "y": 600,
+      "width": 600,
+      "height": 360,
+      "fit": "contain",
+      "cleanEdges": 2,
+      "group": "People"
+    },
+    {
+      "type": "rect",
+      "name": "Cream Message Card",
+      "x": 285,
+      "y": 210,
+      "width": 510,
+      "height": 430,
+      "color": "#EAF0FF",
+      "radius": 8,
+      "group": "Card",
+      "shadow": {
+        "color": "#000000",
+        "opacity": 0.35,
+        "distance": 18,
+        "angle": 120,
+        "blur": 30
+      }
+    },
+    {
+      "type": "text",
+      "name": "Card Copy",
+      "text": "Looking for a\nCapital Growth\nPartner?",
+      "x": 330,
+      "y": 286,
+      "width": 420,
+      "font": "Poppins-Bold",
+      "size": 62,
+      "color": "#1F5EFF",
+      "align": "center",
+      "lineHeight": 1.05,
+      "tracking": 0,
+      "group": "Card"
+    },
+    {
+      "type": "rect",
+      "name": "Yellow Card Rule",
+      "x": 410,
+      "y": 535,
+      "width": 260,
+      "height": 10,
+      "color": "#FFD23F",
+      "radius": 5,
+      "group": "Card"
+    },
+    {
+      "type": "rect",
+      "name": "Contact Strip",
+      "x": 64,
+      "y": 1004,
+      "width": 952,
+      "height": 42,
+      "color": "#0A0F1B",
+      "radius": 18,
+      "group": "Footer"
+    },
+    {
+      "type": "text",
+      "name": "Website",
+      "text": "northlinecapital.com",
+      "x": 90,
+      "y": 1013,
+      "width": 430,
+      "font": "Poppins-Medium",
+      "size": 18,
+      "color": "#FFFFFF",
+      "group": "Footer"
+    },
+    {
+      "type": "text",
+      "name": "Social Links",
+      "text": "IN   IG   FB",
+      "x": 760,
+      "y": 1013,
+      "width": 220,
+      "font": "Poppins-Bold",
+      "size": 18,
+      "color": "#FFFFFF",
+      "align": "right",
+      "tracking": 80,
+      "group": "Footer"
+    }
+  ]
+}

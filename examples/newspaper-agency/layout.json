@@ -1,0 +1,32 @@
+{
+  "name": "nexa-digital-agency-exact-recreation",
+  "width": 736,
+  "height": 920,
+  "background": {"type": "image", "src": "assets/background.png", "fit": "cover"},
+  "layers": [
+    {"type":"image","name":"Top-left photographer camera (reference plate)","src":"assets/camera_top_left.png","x":0,"y":270,"width":170,"height":300,"fit":"contain","group":"Edge Props"},
+    {"type":"image","name":"Top-right phone hand (reference plate)","src":"assets/phone_top_right.png","x":596,"y":330,"width":140,"height":190,"fit":"contain","group":"Edge Props"},
+    {"type":"image","name":"Bottom-left camera cutout","src":"assets/camera_bottom_left.png","x":0,"y":650,"width":125,"height":255,"fit":"contain","cleanEdges":2,"group":"Edge Props"},
+    {"type":"image","name":"Bottom-right notepad hand cutout","src":"assets/notepad_bottom_right.png","x":546,"y":700,"width":190,"height":200,"fit":"contain","cleanEdges":2,"group":"Edge Props"},
+
+    {"type":"image","name":"Fictional woman + blank newspaper","src":"assets/woman_newspaper.png","x":118,"y":220,"width":500,"height":700,"fit":"contain","cleanEdges":2,"group":"Hero"},
+
+    {"type":"text","name":"Top wordmark — NEXA","text":"NEXA","x":220,"y":29,"width":296,"font":"Poppins-Medium","size":35,"color":"#111111","align":"center","tracking":110,"group":"Top Typography"},
+    {"type":"text","name":"Top descriptor — DIGITAL AGENCY","text":"DIGITAL AGENCY","x":220,"y":66,"width":296,"font":"Poppins-Medium","size":9,"color":"#1F5EFF","align":"center","tracking":280,"group":"Top Typography"},
+    {"type":"text","name":"Main headline — MARKETING","text":"MARKETING","x":82,"y":107,"width":572,"font":"DejaVu Sans Bold","size":76,"color":"#1F5EFF","align":"center","tracking":-55,"group":"Top Typography"},
+    {"type":"text","name":"Subhead","text":"THAT GETS TALKED ABOUT","x":85,"y":216,"width":566,"font":"Poppins-Regular","size":22,"color":"#202020","align":"center","tracking":360,"group":"Top Typography"},
+
+    {"type":"text","name":"Newspaper masthead title","text":"THE MARKETING TIMES","x":205,"y":480,"width":326,"font":"DejaVu Serif Bold","size":18,"color":"#252525","align":"center","tracking":-15,"group":"Editable Newspaper Text"},
+    {"type":"text","name":"Newspaper masthead agency line","text":"NEXA DIGITAL AGENCY","x":490,"y":474,"width":85,"font":"Poppins-Bold","size":6,"color":"#252525","align":"center","tracking":20,"group":"Editable Newspaper Text"},
+    {"type":"text","name":"Newspaper headline","text":"NEXA DIGITAL AGENCY","x":180,"y":516,"width":382,"font":"DejaVu Sans Bold","size":25,"color":"#202020","align":"center","tracking":-25,"group":"Editable Newspaper Text"},
+    {"type":"rect","name":"Headline rule","x":175,"y":550,"width":392,"height":1,"color":"#4A4A4A","group":"Editable Newspaper Text"},
+    {"type":"text","name":"Bullet 1","text":"• Data-Driven Strategies","x":240,"y":563,"width":300,"font":"DejaVu Serif Bold","size":15,"color":"#272727","group":"Editable Newspaper Text"},
+    {"type":"text","name":"Bullet 2","text":"• Creative Execution","x":240,"y":587,"width":300,"font":"DejaVu Serif Bold","size":15,"color":"#272727","group":"Editable Newspaper Text"},
+    {"type":"text","name":"Bullet 3","text":"• Real Business Results","x":240,"y":611,"width":300,"font":"DejaVu Serif Bold","size":15,"color":"#272727","group":"Editable Newspaper Text"},
+    {"type":"text","name":"Newspaper support line","text":"Built for brands ready to lead — not follow.","x":194,"y":644,"width":348,"font":"DejaVu Serif Italic","size":12,"color":"#333333","align":"center","group":"Editable Newspaper Text"},
+    {"type":"rect","name":"Growth journey bar","x":191,"y":675,"width":354,"height":36,"color":"#E9E9E7","stroke":{"color":"#303030","width":1},"group":"Editable Newspaper Text"},
+    {"type":"text","name":"Growth journey CTA","text":"START YOUR GROWTH JOURNEY","x":197,"y":683,"width":342,"font":"DejaVu Sans Bold","size":15,"color":"#262626","align":"center","tracking":5,"group":"Editable Newspaper Text"},
+
+    {"type":"text","name":"Bottom spaced agency name","text":"NEXA DIGITAL AGENCY","x":65,"y":860,"width":606,"font":"Poppins-Medium","size":17,"color":"#202020","align":"center","tracking":360,"group":"Bottom Typography"}
+  ]
+}
